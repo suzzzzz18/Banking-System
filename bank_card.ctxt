@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=bank_card
+comment0.text=\r\n\ bank_card\ is\ the\ parent\ class\ to\ sub-class\ debit_card\ and\ credit_card.\ It\ has\ five\ attributes\ and\ accepts\ four\ parameters.\r\n\ Each\ attribute\ has\ a\ corresponding\ accessor\ method.\ Different\ methods\ like\ getters,\ mutators\ and\ display\ method\ are\ used\ to\ successfully\r\n\ complete\ the\ program.\r\n\ @22067063\ Sujina\ Dangal\r\n\ @24\ January\r\n
+comment1.params=card_id\ issuer_bank\ bank_account\ balance_amount
+comment1.target=bank_card(int,\ java.lang.String,\ java.lang.String,\ double)
+comment1.text=\r\n\ A\ constructor\ with\ public\ access\ modifier\ accepting\ four\ parameters,\ namely,\ card_id\ with\ int\ data\ type,\ issuer_bank\ with\ String\ data\ type,\r\n\ bank_account\ with\ String\ data\ type\ and\ balance_amount\ with\ double\ data\ type\ is\ created.\r\n
+comment2.params=
+comment2.target=int\ getcard_id()
+comment2.text=\r\n\ Five\ getters\ or\ accessor\ methods\ are\ created\ \r\n\ to\ return\ the\ value\ to\ instance\ variable.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getclient_name()
+comment4.params=
+comment4.target=java.lang.String\ getissuer_bank()
+comment5.params=
+comment5.target=java.lang.String\ getbank_account()
+comment6.params=
+comment6.target=double\ getbalance_amount()
+comment7.params=client_name
+comment7.target=void\ setclient_name(java.lang.String)
+comment8.params=balance_amount
+comment8.target=void\ setbalance_amount(double)
+comment9.params=
+comment9.target=void\ display()
+numComments=10

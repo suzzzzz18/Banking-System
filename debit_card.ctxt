@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=debit_card
+comment0.text=\r\n\ debit_card\ is\ the\ sub-class\ of\ parent\ class\ bank_card.\ It\ has\ four\ attributes\ and\ accepts\ six\ parameters.\r\n\ Each\ attribute\ has\ a\ corresponding\ accessor\ method.\ Different\ methods\ like\ getters,\ mutators\ and\ display\ method\ are\ used\ to\ successfully\r\n\ complete\ the\ program.\r\n\ @22067063\ Sujina\ Dangal\r\n\ @24\ January\r\n
+comment1.params=card_id\ client_name\ issuer_bank\ bank_account\ balance_amount\ pin_number
+comment1.target=debit_card(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ int)
+comment1.text=\r\n\ A\ constructor\ with\ public\ access\ modifier\ accepting\ six\ parameters,\ namely,\ card_id\ with\ int\ data\ type,\ client_name\ with\ String\ data\ type,\r\n\ issuer_bank\ with\ String\ data\ type,\ bank_account\ with\ String\ data\ type,\ balance_amount\ with\ double\ data\ type\ and\ pin_number\ with\ int\ data\r\n\ type\ is\ created.\r\n
+comment2.params=
+comment2.target=int\ getpin_number()
+comment3.params=
+comment3.target=int\ getwithdrawal_amount()
+comment4.params=
+comment4.target=java.lang.String\ getdate_of_withdrawal()
+comment5.params=
+comment5.target=boolean\ gethas_withdrawn()
+comment6.params=withdrawal_amount
+comment6.target=void\ setwithdrawal_amount(int)
+comment7.params=withdrawal_amount\ date_of_withdrawal\ pin_number
+comment7.target=void\ withdraw(int,\ java.lang.String,\ int)
+comment7.text=\r\n\ A\ display\ method\ withdraw\ accepting\ three\ parameters\ with\ return\ type\ void\ is\ created.\ If\ pin_number\ is\ valid\ and\ balance_amount\ is\ \r\n\ more\ than\ withdrawal_amount,\ then\ it\ prints\ desired\ output\ and\ the\ transaction\ is\ successful.\ If\ pin_number\ is\ invalid\ it\ displays\ a\ \r\n\ message.\r\n
+comment8.params=
+comment8.target=void\ display()
+comment8.text=\r\n\ A\ display\ method\ is\ created\ to\ print\ pin_number,\ withdrawal_amount\ and\ date_of_withdrawal\ if\ the\ amount\ is\ withdrawn\ and\ balance_amount\r\n\ if\ the\ amount\ is\ not\ withdrawn.\r\n
+numComments=9

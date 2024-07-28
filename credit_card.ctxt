@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=credit_card
+comment0.text=\r\n\ credit_card\ is\ the\ sub-class\ of\ parent\ class\ bank_card.\ It\ has\ six\ attributes\ and\ accepts\ eight\ parameters.\r\n\ Each\ attribute\ has\ a\ corresponding\ accessor\ method.\ Different\ methods\ like\ getters,\ mutators\ and\ display\ method\ are\ used\ to\ successfully\r\n\ complete\ the\ program.\r\n\ @22067063\ Sujina\ Dangal\r\n\ @24\ January\r\n
+comment1.params=card_id\ client_name\ issuer_bank\ bank_account\ balance_amount\ cvc_number\ interest_rate\ expiration_date
+comment1.target=credit_card(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ double,\ int,\ double,\ java.lang.String)
+comment1.text=\r\n\ A\ constructor\ with\ public\ access\ modifier\ accepting\ eight\ parameters,\ namely,\ card_id\ with\ int\ data\ type,\ client_name\ with\ String\ data\ type,\r\n\ issuer_bank\ with\ String\ data\ type,\ bank_account\ with\ String\ data\ type,\ balance_amount\ with\ double\ data\ type,\ cvc_number\ with\ int\ data\ type,\r\n\ interest_rate\ with\ double\ data\ type\ and\ expiration_date\ with\ String\ data\ type\ is\ created.\r\n
+comment10.params=
+comment10.target=void\ display()
+comment10.text=\r\n\ A\ display\ method\ to\ print\ the\ required\ output\ is\ created.\r\n
+comment2.params=
+comment2.target=int\ getcvc_number()
+comment3.params=
+comment3.target=double\ getcredit_limit()
+comment4.params=
+comment4.target=double\ getinterest_rate()
+comment5.params=
+comment5.target=java.lang.String\ getexpiration_date()
+comment6.params=
+comment6.target=int\ getgrace_period()
+comment7.params=
+comment7.target=boolean\ getis_granted()
+comment8.params=credit_limit\ grace_period
+comment8.target=void\ setcredit_limit(double,\ int)
+comment9.params=
+comment9.target=void\ cancelcredit_card()
+comment9.text=\r\n\ A\ method\ accepting\ four\ parameters\ with\ return\ type\ void\r\n\ is\ created\ to\ cancel\ credit\ card.\r\n
+numComments=11
